@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title> container</title>
+        <style> .container{display: flex;
+        width: 100%;
+        height: 100%;
+        } 
+        .flex-container{margin:20px;
+            display: flex;
+        height: 100%;
+        width:100%;
+        border:5px solid rgb(189, 59, 59);
+        }
+        
+        .left-side{ display:flex;
+            flex-direction: column;
+            height: 100%;
+            width: 50%;
+        }
+        .item{margin: 20px;
+            display: flex;
+justify-content: center;
+align-items: center;
+font-size: larger;
+            height: 50%;
+            width:90%;
+            border:1px solid blue;
+        }
+        .left-end{display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            margin: 20px;
+            margin-top: 70px;
+            height: 20%;
+            width:90%;
+            border:1px solid blue;
+        }
+        .right-side{
+            display: flex;
+            flex-direction: column;
+            height:100%;
+            width: 50%;
+        }
+        .item-small{display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            margin: 20px;
+            height: 20%;
+            width:90%;
+            border:1px solid blue;
+        }
+        .item-large{display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            margin: 20px;
+            height: 50%;
+            width:90%;
+            border:1px solid blue;
+
+        }
+            </style>
+    </head>
+    <body>
+<div class="container"> 
+    <div class="flex-container"> 
+        <div class="left-side"> 
+            <div class="item"> item large </div>
+            <div class="left-end"> item small</div>
+        </div>
+        <div class="right-side"> 
+            <div class="item-small"> item small</div>
+            <div class="item-small"> item small</div>
+            <div class="item-small">item small </div>
+            <div class="item-small"> item small</div>
+            <div class="item-large"> item large</div>
+            
+        </div>
+    </div>
+</div>
+    </body>
+</html>
