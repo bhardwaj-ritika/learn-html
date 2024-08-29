@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title> grid container</title>
+        <style> 
+            .container{
+                display:grid;
+                justify-content: center;
+                align-items: center;
+                height:100%;
+                width: 100vh;
+            }
+            .grid-container{
+                display:grid;
+                justify-content: center;
+                grid-template-columns: 50% 50%;
+                height:80vh;
+                width: 70vh;
+                border:1px solid black;
+            
+            }
+            .left-side{margin: 20px;
+                padding: 10px;
+                display: grid;
+                grid-template-rows: 40% 15% ;
+                align-content: space-between;
+                
+            
+            }
+            .right-side{margin: 20px;
+                display: grid;
+                grid-template-rows: 15% 15% 15% 15% 40%;
+
+            }
+            .item{display: grid;
+                margin-top: 20px;
+               width: 35vhvh;
+                border: 1px solid red;
+                justify-content: center;
+                align-content: center;
+                font-size: larger;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-transform: capitalize;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="grid-container"> 
+                <div class="left-side"> 
+                    <div class="item"> item large</div>
+                    <div class="item"> item small</div>
+                </div>
+                    <div class="right-side">
+                    <div class="item"> item small</div>
+                    <div class="item"> item small</div>
+                    <div class="item"> item small</div>
+                    <div class="item"> item small</div>
+                    <div class="item"> item large</div>
+                   
+                    </div>
+        </div>
+    </body>
+</html>
