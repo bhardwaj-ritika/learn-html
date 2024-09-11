@@ -56,6 +56,8 @@ input[type=email]{
 }.footer{
     height: 70vh;
     width: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hell p{

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizing</title>
+    <style> 
+    body{
+        height: 100vh;
+        width:80vw;
+    }
+        .sizing{
+            display:grid;
+            border:2px solid black;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:30% 30% 30%;
+            gap: 2px;
+        }
+        .item{display: grid;
+            border:1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="sizing">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+    </div>
+</body>
+</html>
