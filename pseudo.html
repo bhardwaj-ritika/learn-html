@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>elements</title>
+        <style>.p{
+            border:2px solid red;
+            font-size: larger;
+        } li::marker{
+            color:red;
+            border: 2px solid blue;
+        }
+        li:not(:nth-child(2)){
+            color:blue
+        }
+            p::first-letter{
+                color:red;
+            font-size:30px;
+            }
+            input::placeholder{
+                color: green; 
+            }
+            input:valid{
+                border:10px solid green;
+            }
+            input:invalid{
+                border:3px solid red;
+            }
+            input:active{
+                color:brown;
+                font-size: 40px;
+                
+            }
+             p::selection{
+             background-color:darkmagenta;
+             
+            }
+            button:hover{
+                color: red;
+            }
+            
+        </style>
+    </head>
+    <body><div>
+        <div class="p">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>  </div>
+         <div class="list"> <ol type="integer">
+            <li>sugar</li>
+            <li>tea</li>
+            <li>coffee</li>
+          </ol></div>
+          </div><label>
+          <input type="email" placeholder="email"></label>
+          <button> button</button>
+    </body>
+</html>
+
