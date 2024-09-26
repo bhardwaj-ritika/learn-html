@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>facebook</title>
+<style>
+    .a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 100vh;
+        
+        
+    }
+.pluse{content: '';
+    position: absolute;
+    margin:10px;
+    padding: 10px;
+    justify-items: center;
+    height:50px;
+    width:50px;
+    animation: pulse 2s 1000ms ease infinite ;
+    border-radius: 50%;
+    background: conic-gradient(white,#1877F2);
+    
+}
+.pluse::after{content: '';
+    position:absolute;
+    border-radius:60%;
+    background:white;
+    height:50px;
+    width: 50px;
+    
+    box-shadow: 0 0 20px #1877F2;
+}
+
+    @keyframes pulse{
+        0%{
+        transform: rotate(0deg);
+
+        }
+     20%{
+             transform: rotate(90deg);        }
+        50%{
+            transform: rotate(180deg);
+           
+        }
+        80%{
+            transform: rotate(270deg);
+        }
+        90%{
+            transform: rotate(315deg);
+        } 
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+</style>
+    </head>
+    <body><div class="a">
+    <div class="pluse"> </div></div>
+    
+    </body>
+</html>
