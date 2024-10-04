@@ -1,0 +1,203 @@
+.container{display: flex;
+    height: 100vh;
+    width:100vh;
+    background-color: white;
+    font-family: roboto;
+}
+
+ .gp1 a:link {
+    display: inline-flex;
+    flex-direction: row;
+   text-decoration: none;
+    margin-right: 20px;
+    margin-top: 5px;
+    color:rgb(49, 48, 48);
+ }
+.gp11{
+    position: fixed;
+    top:10px;
+    left:5px;
+}
+.gp12{
+    position: fixed;
+    top:10px;
+    left:55px;
+}
+
+.gp13{position:fixed;
+    top:10px;
+    right: 250px;
+    margin-top: 5px;
+}
+.gp14{position:fixed;
+    top:10px;
+    right: 180px;
+    margin-top: 5px;
+}
+.gp15{position:fixed;
+    top:10px;
+    right: 140px;
+    margin-top: 5px;  
+}
+.gp16{position:fixed;
+    top:10px;
+    right: 100px;
+    margin-top: 5px;  
+}
+.gp17{position:fixed;
+    top:5px;
+    right: 10px;
+    margin-top: 5px;  
+    background-color: rgb(62, 92, 242);
+    width:90px;
+    height: 40px;
+    border-radius: 30px ;
+     ;
+    color: white;
+    border:none;
+    font-size: large;
+}
+main{position:absolute;
+    top:100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+.gp2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.gp3{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+.gp31{position: relative;
+    width:550px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url("https://ia801007.us.archive.org/19/items/searchicon/search%20icon.jpg");
+background-repeat: no-repeat;
+background-position: 5px;
+    background-size:  20px;
+    border-color:rgb(238, 232, 232);
+    
+}
+
+ .gp32{display: flex;
+    flex-direction: row;
+    margin:20px;
+    border:none;
+    height: 40px;
+
+    
+
+    
+}
+#a{position: relative;
+    left:100px;
+    margin-right: 20px;
+    background-color:whitesmoke;
+    border:none;
+    font-size: 15px;
+    width: 130px;
+    color:rgb(78, 77, 77)
+}
+#b{
+    position: relative;
+    left:100px;
+    margin-right: 20px;
+    background-color:whitesmoke;
+    border:none;
+    color:rgb(78, 77, 77);
+    font-size: 15px;
+    width: 130px;
+}
+.gp4{
+    font-size: medium;
+
+    width:550px;
+}
+.gp4 a:link{position: relative;
+    font-size: small;
+    margin-right: 5px;
+    text-decoration: none;
+    
+}
+
+.gp5 a:link{position: relative;
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    color:rgb(78, 77, 77);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gp51 a:link{
+    position: fixed;
+    bottom: 7%;
+    padding-bottom: 5%;
+    width:100%;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(244, 239, 239);
+}
+.gpp{position: fixed;
+    bottom: 2%;
+    width:100%;
+    height: 50px;
+    display:inline-flex;
+    flex-direction: row;
+    background-color:rgb(244, 239, 239);
+
+}
+#c{position: fixed;
+    bottom: 2%;
+    left: 20px;
+}
+#d{position: fixed;
+    bottom: 2%;
+    left: 110px;
+}
+#e{position: fixed;
+    bottom: 2%;
+    left:200px; 
+
+}
+#f{position: fixed;
+    bottom: 2%;
+    right:200px;
+}
+#g{position: fixed;
+    bottom: 2%;
+    right:150px;
+
+}
+#h{position: fixed;
+    bottom: 2%;
+    right:100px;
+
+}
+.gp1 a:link:hover{
+    text-decoration: underline;
+
+    
+}
+.gp17 a:link:visited{
+    text-decoration: underline;
+}
+.gp5 a:link:hover{
+    text-decoration: underline;
+}
+.gp4 a:link:hover{
+    text-decoration: underline;
+}
+.gp32:visited {text-decoration: underline;
+
+}
