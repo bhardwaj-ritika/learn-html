@@ -21,7 +21,7 @@ section header {
    width:100%;
     display: inline-flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     
 }
 
@@ -212,7 +212,7 @@ section .footer .row.row2 ul li a {
       .img{
       position: absolute;
       top: 15px;
-      padding:10px;
+      padding:4px;
       left:70px
       
       
@@ -261,8 +261,15 @@ padding: 5px;
 
  }
  .footer .row.row.row2{
-    display:block;
-    padding-left: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap:10px;
+    justify-content:space-between;
+    align-items: center;
+ }
+ .work{
+    display: none;
  }
  .main button{
     display: none;
