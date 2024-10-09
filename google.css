@@ -236,7 +236,7 @@ section .footer .row.row2 ul li a {
      section header ul li button{
         font-size:12px;
         margin-left: 2px;
-        padding:10px 10px ;
+        padding:px 10px ;
         width:50px;
      }
      .search{
@@ -254,7 +254,9 @@ section .footer .row.row2 ul li a {
       justify-content: center;
      }
      
-    
+    .search:hover{
+        box-shadow: none;
+    }
 
     .footer .row{width:100%;
 padding: 5px;
