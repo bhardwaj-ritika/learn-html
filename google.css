@@ -34,7 +34,7 @@ section header ul {
 
 section header ul li {
     list-style: none;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 .a{
     padding-left: 5px;
@@ -53,7 +53,7 @@ section header ul li button {
     background: #1a73e8;
     border: none;
     outline: none;
-    padding: 10px 24px;
+    padding: 11px 24px;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -70,6 +70,13 @@ section .main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
+}
+.searchicon{position: absolute;
+left: 0px;
+padding-left: 10px;
+width: 30px;
 
 }
 
@@ -88,7 +95,6 @@ section .main .searchBox .search {
     border: 1px solid #dedede;
      outline: none; 
     font-size: 16px;
-    pointer-events: none;
     
 }
 .search:hover{box-shadow:0 2px 8px 1px rgba(64,60,67,.24);
@@ -100,7 +106,7 @@ section .main .searchBox .icons {
     top: 0;
     width: 100%;
     display: flex;
-    padding: 7px 25px;
+    padding: 7px 19px;
     justify-content:space-between;
     align-items: center;
 }
@@ -111,6 +117,7 @@ section .main .searchBox .icons .miclens {position: absolute;
     align-items: center;
     gap: 25px;
     padding: 10px;
+    padding-top: 35px;
     
 }
 
@@ -196,8 +203,18 @@ section .footer .row.row2 ul li a {
     header{
         width:30%;
         padding: 0px;
-       
      }
+     .store{display: none;
+     }
+     .gmail{
+        display: none;
+     }
+      .img{
+      position:relative;
+      right:150px;
+      
+      
+      }
     
      header ul li{padding: 0px;
      margin-left: 5px;
@@ -215,9 +232,10 @@ section .footer .row.row2 ul li a {
         padding-left: 0%;
      }
      section header ul li button{
-        font-size: small;
+        font-size:12px;
         margin-left: 2px;
-        padding:7px 7px ;
+        padding:10px 10px ;
+        width:50px;
      }
      .search{
         padding: 7px;
@@ -228,10 +246,13 @@ section .footer .row.row2 ul li a {
         
      }
      .languages{
-      max-width:80vw;
-      display: flex;
-      flex-flow:wrap;
+        max-width:80vw;
+        display:flex;
+        flex-wrap: wrap;
+      justify-content: center;
      }
+     
+    
 
     .footer .row{width:100%;
 padding: 5px;
@@ -239,7 +260,7 @@ padding: 5px;
  }
  .footer .row.row.row2{
     display:block;
-    padding-left: 10px;
+    padding-left: 30px;
  }
  .main button{
     display: none;
