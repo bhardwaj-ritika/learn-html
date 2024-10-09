@@ -34,7 +34,7 @@ section header ul {
 
 section header ul li {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .a{
     padding-left: 5px;
@@ -138,7 +138,7 @@ section .main .buttons button:hover {
 section .main .languages {
     width: 100%;
     display: flex;
-    margin-top: 30px;
+    margin-top: 35px;
     
 }
 
@@ -158,11 +158,12 @@ section .main .languages li a:hover {
 }
 
 section .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     background: #f2f2f2;
+    
 }
 
 section .footer .row {
@@ -194,11 +195,11 @@ section .footer .row.row2 ul li a {
 @media screen and (max-width:460px){
     header{
         width:30%;
-        padding: 0%;
-        font-size: 12px;
+        padding: 0px;
+        font-size: 7px;
      }
-     header ul li{
-     
+     header ul li{padding: 0px;
+     margin-left: 5px;
      }
      .image{
         width:150px ;
@@ -207,7 +208,7 @@ section .footer .row.row2 ul li a {
         padding: 0%;
      }
      section{
-        min-height: 100%;
+        min-height: 70%;
      }
      .a{
         padding-left: 0%;
@@ -215,7 +216,7 @@ section .footer .row.row2 ul li a {
      section header ul li button{
         font-size: small;
         margin-left: 2px;
-        padding:7px 2px ;
+        padding:7px 7px ;
      }
      .search{
         padding: 7px;
@@ -230,11 +231,13 @@ section .footer .row.row2 ul li a {
       display: flex;
       flex-flow:wrap;
      }
+
     .footer .row{width:100%;
+padding: 5px;
 
  }
  .footer .row.row.row2{
-    display: contents;
+    display:block;
     padding-left: 10px;
  }
  .main button{
