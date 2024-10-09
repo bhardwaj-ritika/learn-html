@@ -46,7 +46,7 @@ li:hover{
 section header ul li a {
     color: #111;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 section header ul li button {
@@ -196,8 +196,9 @@ section .footer .row.row2 ul li a {
     header{
         width:30%;
         padding: 0px;
-        font-size: 4px;
+       
      }
+    
      header ul li{padding: 0px;
      margin-left: 5px;
      }
