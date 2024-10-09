@@ -210,8 +210,10 @@ section .footer .row.row2 ul li a {
         display: none;
      }
       .img{
-      position:relative;
-      right:150px;
+      position: absolute;
+      top: 15px;
+      padding:10px;
+      left:70px
       
       
       }
