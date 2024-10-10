@@ -125,7 +125,7 @@ section .main .searchBox .icons .miclens {position: absolute;
     right: 0px;
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     padding: 10px;
     padding-top: 35px;
     
@@ -254,7 +254,7 @@ section .footer .row.row2 ul li a {
        max-height: 34px;
      }
      .searchBox{
-        max-width:80%;
+        max-width:90%;
         max-height: 38px;
         
         
